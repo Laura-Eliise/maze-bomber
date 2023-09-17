@@ -1,0 +1,63 @@
+/* ------------------------- VARIABLES -------------------------*/
+
+:root {
+    --white: #eeeeee;
+    --tile-size: 44px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    image-rendering: pixelated;
+    background-size: contain;
+}
+
+body {
+    min-height: 100vh;
+    background: #333;
+    display: flex;
+    justify-content: safe center;
+    align-items: safe center;
+    flex-direction: column;
+}
+
+#title-wrapper>div,
+label {
+    margin-bottom: 25px;
+    color: white;
+    font-size: 75px !important;
+    text-shadow: 4px 4px #ffffff99 !important;
+}
+
+.no-select {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.flex-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    width: 150px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 0;
+    background-image: url("/src/assets/images/empty_button.png");
+    cursor: pointer;
+    background-color: #00000000;
+}
+
+.button:hover {
+    filter: brightness(80%);
+}
+
+.button:focus{
+    outline: none;
+}

@@ -1,0 +1,93 @@
+.menu-window {
+    z-index: 1000;
+    width: 786px;
+    position: relative;
+}
+
+
+.menu {
+    height: 100%;
+}
+
+/* -------------------MUSIC BUTTONS------------------- */
+
+.sound-buttons {
+    position: absolute;
+    top: 5px;
+    right: 10px
+}
+
+.sound-button {
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white)
+    /*   filter: brightness(80%); */
+}
+
+.sound-button:hover {
+    filter: brightness(40%) !important;
+}
+
+.sound-button:focus {
+    outline: none;
+}
+
+
+/* -------------------PRE MENU------------------- */
+
+.name-input {
+    width: 145px;
+    height: 20px;
+    border: 2px solid var(--white);
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #eee;
+    margin-bottom: 3px;
+    text-shadow: none;
+    padding-left: 5px;
+}
+
+.name-input:focus {
+    outline: none;
+}
+
+.color-input {
+    width: 145px;
+    height: 40px;
+    border: 2px solid var(--white);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.color-input:focus {
+    outline: none;
+}
+
+/* -------------------  LOBBY ------------------- */
+
+.lobby-details {
+    margin-bottom: 40px;
+}
+
+.lobby-buttons {
+    margin-top: 25px;
+}
+
+.lobby-players {
+    margin-top: 100px;
+    width: 95%;
+    height: 200px;
+    display: flex;
+}
+
+.player {
+    height: 100%;
+    width: 187px;
+}
+
+

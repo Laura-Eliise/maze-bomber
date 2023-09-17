@@ -1,0 +1,64 @@
+.game-chat {
+    z-index: 1000;
+    width: 283px;
+    margin-left: 10px;
+    background-color: #00000040;
+    padding: 6px;
+    height: 100%;
+}
+
+
+.message-box {
+    flex-grow: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 95%;
+    padding: 2px;
+}
+
+.message-box::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    cursor:auto
+}
+
+.message-box::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: rgb(128, 128, 128);
+}
+
+.message-box::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(128, 128, 128, 0.534);
+}
+
+.chat-input {
+    width: 273px;
+    height: 20px;
+    border: 2px solid gray;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: gray;
+    margin: 10px 0 3px 0;
+    text-shadow: none;
+    padding-left: 5px;
+}
+
+.chat-input:focus {
+    outline: none;
+}
+
+.message-div {
+    display: flex;
+    text-shadow: 1px 0px black;
+    margin-top: 7px;
+    color: var(--white)
+}
+
+
+.message-sender {
+    margin-right: 5px;
+}
+
+.message-content {
+    word-break: break-word;
+}

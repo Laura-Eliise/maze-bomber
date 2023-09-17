@@ -1,0 +1,47 @@
+.image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.unready-character {
+    width: 80px;
+    height: 180px;
+}
+
+.ready-character {
+    width: 130px;
+    height: 180px;
+}
+
+.player-container {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+.player-character {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    will-change: transform;
+}
+
+.player-character-blue {
+    background-image: url(../images/blue/blue_down1.png);
+}
+
+.player-character-green {
+    background-image: url(../images/green/green_down1.png);
+}
+
+.player-character-purple {
+    background-image: url(../images/purple/purple_down1.png);
+}
+
+.player-character-red {
+    background-image: url(../images/red/red_down1.png);
+}
