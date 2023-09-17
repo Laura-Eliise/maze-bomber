@@ -1,5 +1,5 @@
 <!-- ctrl + shift + v to preview -->
-# bomberman-dom
+# Maze Bomber
 
 
 ## A remake of the popular game [Bomberman](https://en.wikipedia.org/wiki/Bomberman) as a student project @[kood/Johvi](https://kood.tech/).
@@ -75,5 +75,8 @@ go run server.go
 - [Multyplayer game engine](https://www.gabrielgambetta.com/client-server-game-architecture.html )
 
 
-## **Contact**
-### Made by [nimi25820](https://01.kood.tech/git/nimi25820), [leonard](https://01.kood.tech/git/leonard), [Laura-Eliise](https://01.kood.tech/git/Laura-Eliise), [gukka](https://01.kood.tech/git/gukka).
+## Authors
+- Leonard Ladva
+- Laura-Eliise Marrandi
+- Robert Kris Laur
+- Gunta Kļava
